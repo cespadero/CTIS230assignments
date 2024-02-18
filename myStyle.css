@@ -31,3 +31,62 @@ strong {
         color:lightgreen;
         background-color: green;   
     }
+p strong {  
+    color: red;  
+}
+h1, h2 {  
+    color: darkred;  
+}
+p.intro {  
+    font-weight: 800;
+}
+p.conclusion {  
+    font-weight: 400;
+}
+img#heart {  
+    width:60%;  
+}
+img#bear {  
+    width:30%;
+    height:30%; 
+    float: right;
+    border-radius: 10px;
+}
+    h2 h4 {  
+        margin-bottom: 1em;  
+    }
+p{
+    padding: 5px;
+    margin: 10px; /* Setting margins for the content element */
+}
+h2{
+    margin: 5px; /* Setting margins for the content element */
+}
+.paragraph-section {
+    border: 2px solid #333;
+}
+.flexible {
+    display: flex;
+    align-items: center;
+    background-color: pink;
+}
+footer {
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+}
+ /* Step 5!! */
+
+}
+.flexible nav ul {
+    padding: 0;
+}
+.flexible nav ul li {
+    display: inline;
+}
+
+.flexible nav ul li a {
+    color: pink;
+    padding: 10px 20px; 
+    border: 2px solid white;
+}

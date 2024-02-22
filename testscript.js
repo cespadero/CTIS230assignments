@@ -12,3 +12,31 @@ function onMouseOut() {
     myitem.style.color = ""; // Reverting color to its original value
     myitem.style.background = ""; // Reverting background to its original value
 }
+
+//1. 
+thebutton = document.getElementById("thebutton");
+otheritem = document.getElementById("buttontest");
+
+
+// Add an event listener to the button
+thebutton.addEventListener("click", onButtonClick);
+
+// Event listener function to change properties of otheritem
+function onButtonClick() {
+    otheritem.style.color = "lightgreen";
+}
+
+// Get the second button element
+secondbutton = document.getElementById("secondbutton");
+seconditem = document.getElementById("secondtest");
+secondbutton.addEventListener("click", onSecondButtonClick);
+// Event listener function to change properties of seconditem
+function onSecondButtonClick() {
+    seconditem.style.backgroundColor = "red";
+}
+textentry = document.getElementById("myinput");  
+textentry.addEventListener("change", onChange);
+function onChange() {  
+    newtext = myinput.value;  
+    otheritem.innerHTML = newtext;  
+}

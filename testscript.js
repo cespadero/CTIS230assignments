@@ -34,8 +34,18 @@ secondbutton.addEventListener("click", onSecondButtonClick);
 function onSecondButtonClick() {
     seconditem.style.backgroundColor = "red";
 }
+
+thirdbutton = document.getElementById("thirdbutton");
+thirditem = document.getElementById("buttontestthree");
+thirdbutton.addEventListener("click", onThirdButtonClick);
+// Event listener function to change properties of seconditem
+function onThirdButtonClick() {
+    thirditem.style.backgroundColor = "orange";
+}
+
 textentry = document.getElementById("myinput");  
 textentry.addEventListener("change", onChange);
+
 function onChange() {  
     newtext = myinput.value;  
     otheritem.innerHTML = newtext;  

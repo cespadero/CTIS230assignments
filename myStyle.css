@@ -90,3 +90,29 @@ footer {
     padding: 10px 20px; 
     border: 2px solid white;
 }
+/* Standard view */
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Small window view */
+@media screen and (max-width: 600px) {
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+/* Portrait mode */
+@media screen and (orientation: portrait) {
+    header {
+        width: 80%; /* Adjust width for portrait mode */
+    }
+}
+
+/* Landscape mode */
+@media screen and (orientation: landscape) {
+    header {
+        width: 50%; /* Adjust width for landscape mode */
+    }
+}

@@ -18,6 +18,27 @@
     border-bottom: 1px solid #FF69B4; 
     margin-top: 30px
   }
+ meta[name="viewport"] {
+    content: "width=device-width, initial-scale=1";
+  }
+
+  /* Media query for adjusting margins */
+  @media screen and (max-width: 768px) {
+    /* Adjust left and right margins for small screens */
+    body {
+      margin: 0 5%;
+    }
+  }
+
+  /* Media query for landscape and portrait orientation */
+  @media screen and (orientation: landscape) {
+    /* Specify styles for landscape orientation */
+    /* For example, reduce the width of the image */
+    #heart {
+      width: 200px;
+    }
+  }
+
 
   </style>
 </head>

@@ -106,15 +106,18 @@ body {
 /* Portrait mode */
 @media screen and (orientation: portrait) {
     header {
-        width: 50%; /* Adjust width for portrait mode */
-	height: 50%;
+        width: 90%; /* Adjust width for portrait mode */
     }
 }
 
 /* Landscape mode */
 @media screen and (orientation: landscape) {
     header {
-        width: 50%; /* Adjust width for landscape mode */
-	height: 50%;
+        width: 90%; /* Adjust width for landscape mode */
     }
+}
+/* Responsive design for images */
+img {
+    max-width: 50%; 
+    height: auto; 
 }

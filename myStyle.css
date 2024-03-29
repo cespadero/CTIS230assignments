@@ -106,7 +106,8 @@ body {
 /* Portrait mode */
 @media screen and (orientation: portrait) {
     header {
-        width: 80%; /* Adjust width for portrait mode */
+        width: 50%; /* Adjust width for portrait mode */
+	height: 50%;
     }
 }
 
@@ -114,5 +115,6 @@ body {
 @media screen and (orientation: landscape) {
     header {
         width: 50%; /* Adjust width for landscape mode */
+	height: 50%;
     }
 }

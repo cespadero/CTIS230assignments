@@ -50,3 +50,12 @@ function onChange() {
     newtext = myinput.value;  
     otheritem.innerHTML = newtext;  
 }
+var image = document.querySelector('.image');
+
+image.addEventListener('click', function() {
+  if (!this.classList.contains('expanded')) {
+    this.classList.add('expanded');
+  } else {
+    this.classList.remove('expanded');
+  }
+});
